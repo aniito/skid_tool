@@ -22,14 +22,14 @@ async def main():
         _.-'  O ;-.__.' \O `o.
        /o \      \/-.-\/|     \\
    43G|    ;,     '.|\| /
-A script Kiddie has been detected ... || Skid Tool By anito && Cursed Help""") #translated by NeKroFR
+un script Kiddie à été détécté ... || Skid Tool By anito && Cursed Help""")
     await asyncio.sleep(1)
-    print("Skiddage in progress...")
+    print("Skiddage en cours ...")
 
 
 def rama_y():
-    print("discord : https://discord.gg/yHFQBKnXAF")
-    print("You will understood that this ctf is useless and is just for the people who read the script you are good ones!")
+    print("mon serveur : https://discord.gg/yHFQBKnXAF")
+    print("tu auras compris que ce def sert à rien et donc est juste pour les personnes qui lisent le script vous êtes des bons !")
 
 
 
@@ -41,7 +41,7 @@ def prout():
                 skid = requests.get(f"https://ctf-1-ymortail.netlify.app/user/{ski}.gif")
                 if skid.status_code == 200:
                     print ('[+] FOUND :', ski)
-                    print("[+] A backdoor has been installed in your system ")
+                    print("[+] Une backdoor à été installée dans votre système ")
                     break
                 else:
                     print("[-] NOT WORK :", ski)
@@ -52,8 +52,3 @@ if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
     prout()
-
-
-
-
-
